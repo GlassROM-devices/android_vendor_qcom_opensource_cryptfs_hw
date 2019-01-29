@@ -43,6 +43,7 @@
 #include "keymaster_common.h"
 #include "hardware.h"
 #include "cryptfs_hw.h"
+#include <errno.h>
 
 #ifdef LEGACY_HW_DISK_ENCRYPTION
 #if defined(__LP64__)
